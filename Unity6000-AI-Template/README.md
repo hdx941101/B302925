@@ -39,22 +39,21 @@ Unity 版本：6000.3.17f1
 
 簡單說明自己如何：
 
-準備 Unity 專案。
+先使用 Unity Hub 建立一個新的空白 Unity 專案，並確認使用的版本為 6000.3.17f1。建立完成後，確認專案裡有 Assets、Packages、ProjectSettings 和 .gitignore 等必要檔案。
 
-連接 GitHub。
+開啟 GitHub Desktop 並登入自己的 GitHub 帳號，接著將建立好的 Unity 專案加入 GitHub Desktop，開始進行版本控制。
 
-完成 Commit。
+確認專案檔案沒有問題後，在 GitHub Desktop 輸入 Commit 訊息，並點擊 Commit to main，完成第一次版本紀錄。
 
-將專案 Push 到 GitHub。
+完成 Commit 後，點擊 Publish Repository，將 Unity 專案上傳到自己的 GitHub Repository，並設定為公開（Public）。
 
-確認檔案已成功上傳。
+進入 GitHub 網站查看自己的 Repository，確認 Assets、Packages、ProjectSettings、.gitignore 等檔案都有成功上傳。
+
 
 3. 學習心得
 
-請用自己的話解釋：
+Commit：Commit就像是幫專案做一次存檔，可以記錄目前的檔案內容和修改狀況。如果之後修改錯誤，也可以查看之前儲存的版本。
 
-Commit：它是什麼？有什麼用途？
+Push：Push是將自己電腦裡已經 Commit 的內容上傳到 GitHub，讓專案可以保存在網路上，也方便之後分享給別人查看。
 
-Push：它是什麼？有什麼用途？
-
-Pull：它是什麼？有什麼用途？
+Pull：Pull 是將 GitHub 上最新的檔案下載並同步到自己的電腦。如果在其他電腦修改過專案，就可以透過 Pull 取得最新的內容。
